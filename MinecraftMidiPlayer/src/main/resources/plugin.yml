@@ -1,0 +1,13 @@
+name: ${project.artifactId}
+main: ${project.groupId}.${project.artifactId}.${project.artifactId}
+version: ${project.version}
+author: khjxiaogu
+commands:
+  mcmidi:
+    description: midi plugin command
+    permission: ${project.artifactId}.admin
+    usage: /mcmidi
+permissions:
+  ${project.artifactId}.admin:
+    description: permission to play midi
+    default: op

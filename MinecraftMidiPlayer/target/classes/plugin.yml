@@ -1,0 +1,13 @@
+name: MCMidi
+main: com.khjxiaogu.MCMidi.MCMidi
+version: 1.2.4
+author: khjxiaogu
+commands:
+  mcmidi:
+    description: midi plugin command
+    permission: MCMidi.admin
+    usage: /mcmidi
+permissions:
+  MCMidi.admin:
+    description: permission to play midi
+    default: op
